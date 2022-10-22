@@ -1,6 +1,6 @@
 "use strict";
 
-let secretNumber = Math.round(Math.random() * 20);
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 10;
 let highScore = 0;
 
